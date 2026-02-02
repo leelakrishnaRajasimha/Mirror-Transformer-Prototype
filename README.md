@@ -2,6 +2,10 @@
 
 ​This repository contains a Decoder-Only Transformer implementation designed to perform string reversal (mirroring). The project focuses on character-level autoregressive sequence learning using a custom dataset and the PyTorch Ignite framework.
 
+ Author: Leelakrishna Rajasimha Yadav Doddakula
+
+Date: 2 February 2026
+
 ## ​Project Overview
 * ​Objective: Given an input sequence (e.g., abc), the model learns to generate its mirror image (cba).
 * ​Dataset: Synthetic samples of random lowercase strings.
@@ -9,8 +13,8 @@
 ​*Training Style: The model is trained to predict the next token at each position (GPT-style/Teacher Forcing).
 
 ## Architecture & Technical Specifications
-​* Model Type: Decoder-Only Transformer
-* ​Embedding Dimension: 256
+* Model Type: Decoder-Only Transformer
+* Embedding Dimension: 256
 * ​Attention Heads: 8
 * ​Transformer Layers: 4 Decoder Layers
 ​* Positional Encoding: Fixed Sinusoidal Encoding
@@ -42,6 +46,9 @@ As the learning rate reached its peak, a divergence occurred, followed by recove
 ## ​Hardware & Environment
 * ​GPU: NVIDIA RTX 4050 (Laptop)
 * Frameworks: PyTorch, PyTorch Ignite, tqdm
+
+## Trained Weights
+Model weights ('.pth') are not included in this repository to keep it lightweight. This model can be retrained using the provided notebook.
 
 ## ​Summary
 ​This project focuses on Transformer training mechanics, optimization behavior, and debugging learning dynamics rather than solely on final accuracy.
