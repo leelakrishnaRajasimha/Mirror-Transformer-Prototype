@@ -48,7 +48,7 @@ As the learning rate reached its peak, a divergence occurred, followed by recove
 * Frameworks: PyTorch, PyTorch Ignite, tqdm
 
 ## Trained Weights
-Model weights ('.pth') are not included in this repository to keep it lightweight. This model can be retrained using the provided notebook.
+Model weights ('.pth') were saved locally after training but are not included in the repository due to file size limits.
 
 ## ​Summary
 ​This project focuses on Transformer training mechanics, optimization behavior, and debugging learning dynamics rather than solely on final accuracy.
